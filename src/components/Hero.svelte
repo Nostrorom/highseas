@@ -27,9 +27,6 @@
 							<div class="inline-block ml-4">
 								<p class="block text-lg text-lightBlue-800">Arnaud Fouché</p>
 								<div class="block">
-									<a href="mailto:arnaud.fouche@gmail.com">
-										<img src="mail.svg" alt="mail" class="inline-block h-6 mx-1 hover:shadow">
-									</a>									
 									<a target="_blank" href="https://github.com/Nostrorom/highseas">
 										<img src="github.svg" alt="github" class="inline-block h-6 mx-1 hover:shadow">
 									</a>									
