@@ -1,0 +1,66 @@
+<script>
+	import Hero from '../components/Hero.svelte';
+	import ContentBox from '../components/ContentBox.svelte';
+	import Card from '../components/Card.svelte';
+	import Button from '../components/Button.svelte';
+</script>
+
+<svelte:head>
+  <title>Intro</title>
+</svelte:head>
+
+<Hero
+	title="highseas"
+	subtitle="the little app that went way overboard"
+/>
+
+<div class="w-4/5 mx-auto py-6">
+
+	<ContentBox
+		title="Hi ! And welcome to <em>highseas</em>, the application that turned into an application..."
+		text="So one day, I was perusing the Tailwind documentation to build a website and an app that inspires me, and this led me to here.
+		As a preamble, let me kindly suggest that this quote: "	
+	/>
+	<ContentBox
+		quote="[...] we're a tiny company so we need T-shaped people more than we need specialists."
+		author="Adam W."
+		bio="somebody you may know"
+	/>
+
+	<ContentBox
+		text="...is going ot be put seriously to the test. It's this one and a similar tone that convinced my to apply. In my case, we're talking more of a squashed T, with quite a wide horizontal bar and rather shorter vertical one. I have no doubt that there will be more experienced or skilled designers applying, that's not where my strengths lie. It's in the breadth of interests, the quickness and eagerness to learn, discover, explore each and eveything that may come my way."	
+	/>
+
+	<ContentBox
+		text="So without further ado, here is how this site is organised:"
+	/>
+
+	<Card
+		title="Introduction"
+		text="This section right here, where I talk about stuff that I find relevant, past or future experiences. This is not a resume, there's LinkedIn for that ;)"
+	/>
+	
+	<Card
+		title="Tailwind"
+		text="Where I give my thoughtson what was posted in the job description. Maybe not on everything, and some I talk more lengthily about. Some things inspires me, what I'd look forward to work on, etc. Sidenote: I may have found a mistake in a Tailwind UI element (teaser, hah hah !)."
+		link="tailwind"
+	/>
+	
+	<Card
+		title="Showcase"
+		text="You'll quickly realise that my previous work is not expert-level, but that does give a sense of the progression. 2 years ago, I had never written a single line of code (apart a vague attempt at an tabletop game website in 1999), and it's the frustration with the limits of the technology I was using as well as my own skills that landed me here. There are two things that really enthuse me, it's Svelte and Tailwind: simple, clean, elegant, flexible. My best work so far is the very website you are looking at. It's also the very first app I deploy. And the first one I built with Svelte/Sapper. And the first one I used Tailwind on. I expand a bit on the parts am the more happy with."
+		link="showcase"
+	/>
+	
+	<Card
+		title="Analysis"
+		text="If there's one feature I'd really like to see in Tailwind, it's the possibility to generate your own palette. I mean, the palette is beautiful, for sure, but you know how that goes: people will always want <em>that particular hue</em> and it's variants. Sometime you work on a brand with a given color, or there's one you really like, all sorts of reasons really. So I got thinking into how that could work."
+		link="analysis"
+	/>
+
+</div>
+
+
+
+
+
