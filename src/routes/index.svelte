@@ -24,7 +24,7 @@
 	<ContentBox
 		quote="[...] we're a tiny company so we need T-shaped people more than we need specialists."
 		author="Adam W."
-		bio="somebody you may know"
+		bio="somebody you may have heard of"
 	/>
 
 	<ContentBox
