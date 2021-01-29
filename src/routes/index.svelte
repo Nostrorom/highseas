@@ -2,7 +2,6 @@
 	import Hero from '../components/Hero.svelte';
 	import ContentBox from '../components/ContentBox.svelte';
 	import Card from '../components/Card.svelte';
-	import Button from '../components/Button.svelte';
 </script>
 
 <svelte:head>
@@ -57,6 +56,27 @@
 		text="If there's one feature I'd really like to see in Tailwind, it's the possibility to generate your own palette. I mean, the palette is beautiful, for sure, but you know how that goes: people will always want <em>that particular hue</em> and it's variants. Sometime you work on a brand with a given color, or there's one you really like, all sorts of reasons really. So I got thinking into how that could work."
 		link="analysis"
 	/>
+
+	<ContentBox
+		title="Last minute uneforeseen issues"
+		text="So as these things always do, deployment bailed on me at the last minute. I tried to troubleshoot but didn't succeed. <code>npm run dev</code> works fine, Heroku gives success messges, but somehow I can't access the app."	
+	/>
+
+	<ContentBox
+		text="That means this section is going to remain pretty empty, as I'll try to publish as much content as I can in the meantime, and the content is going to remain a bit flimsier than I would have liked. In the interest of fairness for other applicants, I'll stop modifying the repo at deadline time."	
+	/>
+
+	<ContentBox
+		text="Let me just try to recap that I am very ethusiastic about Tailwind and the possibilities it brings to web development. Being a part of it would be a very exciting prospect for me. And while I am not the most skilled or experiences, I have a wide variety of experience and skills that cna bring a fresh eye and a different angle to many things that you guys do. I'm endlessly curious and learn very fast, any sort of things. Science, languages (I can hold a conversation in about 6/7), travel (visited about 80 countries, and counting), history, you name it."	
+	/>
+
+	<ContentBox
+		text="Friends and colleagues usually praise my knowledge of many subjects, and my eagerness to keep learning more, my analytical mind that understands concepts easily, my kindness and human skills that make me a great teacher as well and a fun person to be around."	
+	/>	
+
+	<ContentBox
+		text="What is in this website is just the surface of the work I've done for this application, and also of what I think I can bring to Tailwind. I hope there is enough to pique your curiosity and that we may have the opportunity to talk to go further :)"	
+	/>	
 
 </div>
 

@@ -25,7 +25,7 @@
             <p class="text-coolGray-600 text-lg">{@html text}</p>
         {/if}
         {#if code}
-            <div class="my-4 py-4 px-6 border-l-2 border-amber-500 bg-warmGray-50 text-amber-600 shadow-sm">
+            <div class="my-4 py-4 px-2 border-l-2 border-amber-500 bg-warmGray-50 text-amber-600 shadow-sm">
                 <pre>
                     <code>
                         {code}

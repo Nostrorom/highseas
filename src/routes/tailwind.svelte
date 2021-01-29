@@ -1,8 +1,6 @@
 <script>
-	import Hero from '../components/Hero.svelte';
 	import ContentBox from '../components/ContentBox.svelte';
 	import Card from '../components/Card.svelte';
-	import Button from '../components/Button.svelte';
 </script>
 
 <svelte:head>
