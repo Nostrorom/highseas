@@ -41,7 +41,7 @@
 	
 	<Card
 		title="Tailwind"
-		text="Where I give my thoughtson what was posted in the job description. Maybe not on everything, and some I talk more lengthily about. Some things inspires me, what I'd look forward to work on, etc. Sidenote: I may have found a mistake in a Tailwind UI element (teaser, hah hah !)."
+		text="Where I give my thoughts on what was posted in the job description. Maybe not on everything, and some I talk more lengthily about. Some things inspires me, what I'd look forward to work on, etc. Sidenote: I may have found a mistake in a Tailwind UI element (teaser, hah hah !)."
 		link="tailwind"
 	/>
 	

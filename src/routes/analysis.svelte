@@ -9,7 +9,25 @@
 
 <div class="w-4/5 mx-auto py-4">
 	<ContentBox
-		title="Placeholder"
-		text="This is a placeholder in case I don't get the time to put the full anlysis there. It is fun though, because it's about how to think about to generate the 50-900 range for custom colors."
+		title="There was so much more to say"
+		text="The idea was to use the HSL data points on all of the colors to try to find a function that could be applied to other colors in between.
+		HSL was chosen because it makes sense on a human-perception perspective to determine what works. You will find below some samples. The end insight is that the curves have enough similarities to allow such a function to be calculated, and could generate the current palette with the exception of a couple outliers here and there, but that woudl not statistically change the result"
+	/>
+
+	<Card
+		title="red"
+		image="red.png"
+	/>
+	<Card
+		title="lime"
+		image="lime.png"
+	/>
+	<Card
+		title="blue"
+		image="blue.png"
+	/>
+	<Card
+		title="fuchsia"
+		image="fuchsia.png"
 	/>
 </div>
