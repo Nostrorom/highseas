@@ -16,6 +16,8 @@ In the interest of fairness to other applicants, I only allowed myself these upd
 
 * removed my personal email from the repo. After a bit of sleep I figured this wasn't a very smart idea to leave it around here
 * updated this readme with the content you are reading now, just for clarity's sake
+* fixed the deployment issue, it had to do with the `polka` version for Heroku. Downgraded to latest stable release. The app is live here: [`highseas`](https://high-seas.herokuapp.com/) - I'm only providing this for the sake of readability, to save you the clone/run dev thing; I still consider having provided a non-deployed app at deadline time.
+
 
 ### Further content updates and development of the app
 
