@@ -10,7 +10,7 @@ However, part of applying to something or doing a project is being able to meet 
 
 What I was able to deliver was this GitHub repository, with a non-deployed app. 
 
-It's not very readable, so I suggest you clone the ```npm run dev``` to more easily navigate the content. 
+It's not very readable, so I suggest you clone the repo then ```npm run dev``` to more easily navigate the content. 
 
 In the interest of fairness to other applicants, I only allowed myself these updates past deadline time:
 
